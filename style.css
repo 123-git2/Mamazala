@@ -1,11 +1,12 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  
   background-color: #f5f5dc;
 }
 
@@ -89,14 +90,15 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.541); /* Black overlay with 50% opacity */
-    z-index: -1; /* Make sure the overlay is above the background image but below the text */
+    background: rgba(0, 0, 0, 0.649); /* Black overlay with 50% opacity */
+    z-index: -2; /* Make sure the overlay is above the background image but below the text */
   }
 
 #hero h1 {
   font-size: 3.5rem;
   margin-bottom: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 #hero p {
