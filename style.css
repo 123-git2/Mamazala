@@ -1,4 +1,4 @@
- {
+ *{
   box-sizing: border-box;
 }
 
@@ -130,8 +130,6 @@ body {
   }
 }
 
-<<<<<<< HEAD
-=======
 /*Feedback*/
 .feedback {
   display: flex;
@@ -204,7 +202,7 @@ button:hover {
   }
 }
 
->>>>>>> 6931a4c5231390f870465f4b447d58ebcf27b48e
+
 /* Footer styling */
 footer {
   background-color: #f8f9fa;
