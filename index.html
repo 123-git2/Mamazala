@@ -4,10 +4,33 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Mamazala</title>
 </head>
 <body>
-      <h1>Mamazala</h1>
+      <h1 class="headings">Mamazala</h1>
+
+
+       <!--About-->
+    <section class="about">
+        <h1 class="headings">About Us</h1>
+        <div class="aboutContent">
+            <img src="assets/img/FoodTrailer.jpg" alt="Mamazala with her Trailer">
+            <div class="aboutParagraph">
+                <p>
+                    Ku Mamazala Food , we bring the comfort of home-cooked meals straight to you. Our food trailer is more than just a place to grab a bite—it’s
+                    <span id="dots">...</span><span id="more" style="display: none;">
+                        where tradition meets taste.Our menu is filled with wholesome, freshly-prepared dishes inspired by traditional home cooking, perfect for satisfying your midday hunger.
+                        Whether you need a quick grab-and-go option or a full plate to savor during your break, Mamazala’s has the perfect meal to keep you energized and ready for the rest of your day.
+                        Let us bring the taste of home to your lunch hour!
+                                        
+                    </span>
+                </p>
+                <button onclick="toggleReadMore()" id="readMoreBtn">Read More</button>
+            </div>
+        </div>
+    </section>
+
       <div class="feedback" id="feedback">
         <div class="form-feedback">
             <form action="">
@@ -22,5 +45,6 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.570682440908!2d28.03281257462421!3d-26.14553756158572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c91e4d98411%3A0x7cf218df732b98d0!2sRegus%20-%20Johannesburg%2C%20Rosebank%20Corner!5e0!3m2!1sen!2sza!4v1726733562945!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
          </div>
       </div>
+      <script src="assets/js/script.js"></script>
 </body>
 </html>
