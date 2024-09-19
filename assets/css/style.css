@@ -248,6 +248,7 @@ button:hover {
     flex-direction: row;
   }
 
+<<<<<<< HEAD
   .form-feedback,
   .map-feedback {
     flex: 1;
@@ -260,6 +261,8 @@ button:hover {
   }
 }
 
+=======
+>>>>>>> 76eb48b1c217f8ee3f8ac6d9b9b7f0b34a139517
 /* Footer styling */
 footer {
   background-color: #f8f9fa;
@@ -326,3 +329,39 @@ footer {
 .footer-category ul li a:hover {
   text-decoration: underline;
 }
+
+.container-card {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 10px; 
+}
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
